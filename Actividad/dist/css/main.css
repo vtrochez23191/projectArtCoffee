@@ -1,0 +1,655 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+@font-face {
+  font-family: 'ObliquaITCW01';
+  src: url("../css/fonts/ObliquaITCW01.eot");
+  src: url("../css/fonts/ObliquaITCW01.eot") format("embedded-opentype"), url("../css/fonts/ObliquaITCW01.woff2") format("woff2"), url("../css/fonts/ObliquaITCW01.woff") format("woff"), url("../css/fonts/ObliquaITCW01.ttf") format("truetype"), url("../css/fonts/ObliquaITCW01.svg#ObliquaITCW01") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Obliqua ITC W01 Bold';
+  src: url("../css/fonts/ObliquaITCW01Bold.eot");
+  src: url("../css/fonts/ObliquaITCW01Bold.eot") format("embedded-opentype"), url("../css/fonts/ObliquaITCW01Bold.woff2") format("woff2"), url("../css/fonts/ObliquaITCW01Bold.woff") format("woff"), url("../css/fonts/ObliquaITCW01Bold.ttf") format("truetype"), url("../css/fonts/ObliquaITCW01Bold.svg#ObliquaITCW01Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+h1, h2, h3, h4, p, li, a, span, button, label, strong {
+  font-family: 'ObliquaITCW01'; }
+
+h1, h2, h3, h4 {
+  font-weight: 700; }
+
+.bg-white {
+  background: #ffffff; }
+
+html, body {
+  height: 100%;
+  overflow-x: hidden; }
+
+@media (min-width: 768px) {
+  .pd-d {
+    padding: 0 !important; } }
+
+@media (max-width: 768px) {
+  .pd-m {
+    padding: 0 !important; } }
+
+@media (max-width: 767px) {
+  .dip-mob {
+    display: none !important; } }
+
+@media (min-width: 768px) {
+  .dip-desk {
+    display: none !important; } }
+
+.border-none {
+  border: none !important; }
+
+@media (max-width: 768px) {
+  .flex-f {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse;
+    flex-flow: column-reverse; } }
+
+.dipb {
+  display: block !important; }
+
+.dipn {
+  display: none !important; }
+
+.banner-principal {
+  background-color: #f4ede5;
+  background-size: cover;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  position: relative; }
+  .banner-principal:before {
+    content: url("../img/icons/icon-mouse.svg");
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 11px);
+    -webkit-animation: mover 0.8s infinite  alternate;
+    animation: mover 0.8s infinite  alternate;
+    -webkit-animation: mover 0.8s infinite  alternate;
+    animation: mover 0.8s infinite  alternate; }
+
+@-webkit-keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+  .banner-principal .content-logo {
+    padding: 60px 0; }
+  .banner-principal .text-banner {
+    padding-bottom: 100px; }
+    .banner-principal .text-banner h2 {
+      font-family: 'Rubik', sans-serif;
+      color: #000;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      margin-bottom: 40px; }
+      .banner-principal .text-banner h2 span {
+        color: #c69b7b;
+        font-family: 'Rubik', sans-serif; }
+    .banner-principal .text-banner p {
+      font-size: 20px;
+      line-height: 26px;
+      color: #000;
+      font-weight: 400; }
+  .banner-principal .content-form {
+    height: 95%;
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 0px 21.3408px 48.9061px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 21.3408px 48.9061px rgba(0, 0, 0, 0.15); }
+  @media (max-width: 768px) {
+    .banner-principal {
+      padding-bottom: 50px; }
+      .banner-principal:before {
+        content: ""; }
+      .banner-principal .content-logo {
+        padding: 30px 0; }
+        .banner-principal .content-logo img {
+          max-width: 150px; }
+      .banner-principal .text-banner {
+        padding-bottom: 30px; }
+        .banner-principal .text-banner h2 {
+          font-size: 35px;
+          line-height: 35px;
+          margin-bottom: 30px; }
+        .banner-principal .text-banner p {
+          font-size: 18px;
+          line-height: 26px; }
+      .banner-principal .content-form {
+        height: 700px;
+        border-radius: 17.784px;
+        background: rgba(255, 255, 255, 0.2); } }
+
+.description-prexco {
+  position: relative; }
+  .description-prexco .content-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%; }
+    .description-prexco .content-all .text-prexco h2 {
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 41px;
+      color: #000;
+      margin: 15px 0 0 0;
+      font-family: 'Obliqua ITC W01 Bold'; }
+    .description-prexco .content-all .text-prexco h3 {
+      color: #c69b7b;
+      font-size: 32px;
+      line-height: 34px;
+      font-weight: 700;
+      font-family: 'Obliqua ITC W01 Bold';
+      margin: 22px 0 17px 0; }
+    .description-prexco .content-all .text-prexco p {
+      font-size: 20px;
+      line-height: 26px;
+      font-family: ObliquaITCW01;
+      color: #000;
+      margin-bottom: 20px; }
+  @media (max-width: 768px) {
+    .description-prexco .content-all .text-prexco p {
+      font-size: 18px; } }
+
+.benefits {
+  position: relative; }
+  .benefits:before {
+    content: url("../img/assets/fondo-benefits.png");
+    position: absolute;
+    top: -40%;
+    right: -50px; }
+  .benefits .inscription {
+    padding: 130px 0 90px 0; }
+    .benefits .inscription .content-inscription {
+      background: #ffffff;
+      -webkit-box-shadow: -30px 36px 30px rgba(51, 69, 70, 0.05);
+      box-shadow: -30px 36px 30px rgba(51, 69, 70, 0.05);
+      border-radius: 50px;
+      width: 350px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 4px 0; }
+      .benefits .inscription .content-inscription p {
+        font-size: 22px;
+        font-weight: 700;
+        color: #000;
+        font-family: 'Obliqua ITC W01 Bold';
+        letter-spacing: 0.02em;
+        margin: 0; }
+      .benefits .inscription .content-inscription h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #c69b7b;
+        font-family: 'Obliqua ITC W01 Bold';
+        letter-spacing: 0.02em; }
+  .benefits .tittle {
+    margin-bottom: 50px; }
+    .benefits .tittle h2 {
+      font-size: 38px;
+      font-weight: 700;
+      font-family: 'Obliqua ITC W01 Bold';
+      color: #000;
+      margin: 0;
+      text-align: center; }
+  .benefits .content-slider {
+    background: rgba(255, 255, 255, 0.65);
+    -webkit-box-shadow: 5px 16px 30px rgba(0, 0, 0, 0.03), 0px 0px 55px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 16px 30px rgba(0, 0, 0, 0.03), 0px 0px 55px rgba(0, 0, 0, 0.05);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    padding: 30px 80px;
+    margin-bottom: 80px; }
+    .benefits .content-slider .item-benefit .img-benefit {
+      background-color: #c69b7b;
+      height: 85px;
+      width: 85px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin: 0 auto;
+      border-radius: 10px;
+      margin-bottom: 24px; }
+      .benefits .content-slider .item-benefit .img-benefit img {
+        margin: 0 auto; }
+    .benefits .content-slider .item-benefit .text-benefit p {
+      font-size: 16px;
+      line-height: 20px;
+      color: #000;
+      text-align: center;
+      margin: 0; }
+  .benefits .buttons-slider .swiper-button-next, .benefits .buttons-slider .swiper-button-prev {
+    color: #c69b7b; }
+    .benefits .buttons-slider .swiper-button-next:after, .benefits .buttons-slider .swiper-button-prev:after {
+      font-size: 28px; }
+  .benefits .buttons-slider .swiper-button-next {
+    right: 20px; }
+  .benefits .buttons-slider .swiper-button-prev {
+    left: 20px; }
+  @media (max-width: 768px) {
+    .benefits:before {
+      content: url("../img/assets/fondo-benefits-mobile.png");
+      position: absolute;
+      top: -15%;
+      right: -45%;
+      z-index: -1; }
+    .benefits .inscription {
+      padding: 15px 0 50px 0; }
+    .benefits .tittle {
+      margin-bottom: 0; }
+    .benefits .content-slider {
+      padding: 45px 0 0 0;
+      background: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    .benefits .buttons-slider .swiper-button-next, .benefits .buttons-slider .swiper-button-prev {
+      top: 32%; }
+    .benefits .buttons-slider .swiper-button-next {
+      right: 0; }
+    .benefits .buttons-slider .swiper-button-prev {
+      left: 0; } }
+
+.description-secundary {
+  position: relative; }
+  .description-secundary .content-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%; }
+    .description-secundary .content-all .text-secundary {
+      width: 90%; }
+      .description-secundary .content-all .text-secundary .blue span {
+        color: #c69b7b;
+        font-family: 'Obliqua ITC W01 Bold'; }
+      .description-secundary .content-all .text-secundary .orange span {
+        color: #c69b7b;
+        font-family: 'Obliqua ITC W01 Bold'; }
+      .description-secundary .content-all .text-secundary .yellow span {
+        color: #c69b7b;
+        font-family: 'Obliqua ITC W01 Bold'; }
+      .description-secundary .content-all .text-secundary .cont-img {
+        position: relative; }
+      .description-secundary .content-all .text-secundary h2 {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 41px;
+        color: #FE5000;
+        margin: 15px 0 0 0;
+        font-family: 'Obliqua ITC W01 Bold'; }
+      .description-secundary .content-all .text-secundary h3 {
+        color: #000;
+        font-size: 32px;
+        line-height: 34px;
+        font-weight: 700;
+        font-family: 'Obliqua ITC W01 Bold';
+        margin: 22px 0 17px 0;
+        letter-spacing: 1px; }
+      .description-secundary .content-all .text-secundary p {
+        font-size: 20px;
+        line-height: 26px;
+        font-family: ObliquaITCW01;
+        color: #000;
+        margin-bottom: 20px; }
+  @media (max-width: 768px) {
+    .description-secundary {
+      padding-bottom: 60px; }
+      .description-secundary .content-all .text-secundary {
+        width: 100%;
+        text-align: center; }
+        .description-secundary .content-all .text-secundary p {
+          font-size: 18px; } }
+
+.orange-section .content-all .text-secundary .circle-before {
+  position: relative; }
+  .orange-section .content-all .text-secundary .circle-before img {
+    left: calc(50% - 20px);
+    width: 40px;
+    bottom: -10px;
+    position: absolute; }
+
+.orange-section .content-all .text-secundary .cont-img:before {
+  content: "";
+  left: -31px;
+  bottom: 0;
+  width: 13px;
+  height: 13px;
+  background: #ffffff;
+  border: 2.85px solid #c69b7b;
+  border-radius: 50%;
+  position: absolute; }
+
+@media (max-width: 768px) {
+  .orange-section .orange-order .first-mobile {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1; }
+  .orange-section .orange-order .second-mobile {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2; }
+  .orange-section .content-all .text-secundary .circle-before img {
+    left: 55%;
+    bottom: -80px; }
+  .orange-section .content-all .text-secundary .cont-img:before {
+    left: 14px; } }
+
+.yellow-section .content-all .text-secundary .circle-before {
+  position: relative; }
+  .yellow-section .content-all .text-secundary .circle-before img {
+    left: calc(50% - 20px);
+    width: 40px;
+    bottom: -30px;
+    position: absolute; }
+
+.yellow-section .content-all .text-secundary .cont-img:before {
+  content: "";
+  left: -31px;
+  top: 0;
+  width: 13px;
+  height: 13px;
+  background: #ffffff;
+  border: 2.85px solid #c69b7b;
+  border-radius: 50%;
+  position: absolute; }
+
+@media (max-width: 768px) {
+  .yellow-section .content-all .text-secundary .circle-before img {
+    left: 80%; }
+  .yellow-section .content-all .text-secundary .cont-img:before {
+    left: 14px; } }
+
+.contact {
+  background-color: #f4ede5;
+  background-size: cover;
+  background-position: 100% 0%;
+  background-repeat: no-repeat; }
+  .contact .content-form {
+    height: calc(100% - 130px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.07);
+    margin-top: 70px; }
+  .contact .content-video {
+    padding: 220px 0 60px 0;
+    text-align: right; }
+    .contact .content-video iframe {
+      width: 495px;
+      height: 495px; }
+  @media (max-width: 768px) {
+    .contact .order-contact .second-mobile {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2; }
+    .contact .order-contact .first-mobile {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1; }
+    .contact .content-form {
+      height: 700px;
+      margin-bottom: 55px; }
+    .contact .content-video {
+      padding: 0 0 60px 0; }
+      .contact .content-video iframe {
+        width: 100%;
+        height: 350px; } }
+
+.footer {
+  background-color: #c69b7b; }
+  .footer .logo-footer {
+    padding: 35px 0; }
+  .footer .cards {
+    padding-left: 15px; }
+  .footer .text-footer {
+    color: #ffffff; }
+    .footer .text-footer .list-social {
+      padding: 20px 0 0 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none; }
+      .footer .text-footer .list-social li {
+        width: 25%; }
+    .footer .text-footer .part-principal {
+      padding-bottom: 30px; }
+    .footer .text-footer h2 {
+      padding: 55px 0 30px 0;
+      font-family: 'Obliqua ITC W01 Bold';
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.9);
+      letter-spacing: 1px; }
+    .footer .text-footer p {
+      font-size: 16px;
+      line-height: 27px;
+      color: rgba(255, 255, 255, 0.9);
+      margin: 0;
+      font-weight: 400; }
+      .footer .text-footer p strong {
+        font-weight: 700;
+        font-family: 'Obliqua ITC W01 Bold'; }
+    .footer .text-footer a {
+      font-size: 16px;
+      line-height: 27px;
+      color: rgba(255, 255, 255, 0.9);
+      margin: 0;
+      font-weight: 400;
+      display: block;
+      text-decoration: underline; }
+  .footer .content-end {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    position: relative; }
+    .footer .content-end:before {
+      content: "";
+      left: -20px;
+      top: 0;
+      width: calc(100% + 40px);
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.9);
+      position: absolute; }
+    .footer .content-end p {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.9); }
+      .footer .content-end p span {
+        font-family: 'Obliqua ITC W01 Bold'; }
+  @media (max-width: 768px) {
+    .footer .logo-footer {
+      padding: 70px 0 35px 0; }
+    .footer .cards {
+      padding: 0; }
+    .footer .text-footer h2 {
+      padding: 38px 0 17px 0; }
+    .footer .content-end {
+      padding: 40px 0; }
+      .footer .content-end:before {
+        left: 0;
+        width: 100%; } }
+
+#map {
+  height: 60%;
+  position: relative; }
+  #map::after {
+    position: absolute;
+    content: "";
+    height: 60px;
+    width: 3px;
+    background: #c69b7b;
+    left: 50%;
+    bottom: -5px;
+    border-radius: 15px; }
+
+.thanks {
+  height: 100%;
+  background-color: #f4ede5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center; }
+  .thanks .content-thanks {
+    color: #c69b7b; }
+    .thanks .content-thanks h2 {
+      font-size: 48px;
+      font-family: 'Obliqua ITC W01 Bold'; }
+    .thanks .content-thanks p {
+      font-size: 30px; }
+
+.form-talk {
+  padding-top: 80px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto; }
+  @media (max-width: 768px) {
+    .form-talk {
+      width: 100%;
+      position: relative;
+      padding: 20px; } }
+  .form-talk .button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 2px; }
+
+.form-group {
+  position: relative;
+  margin-bottom: 5px; }
+  .form-group input, .form-group textarea {
+    font-size: 16px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #bdb9b9;
+    border-radius: 0;
+    color: #727272;
+    resize: none; }
+    .form-group input:focus, .form-group textarea:focus {
+      outline: none; }
+  .form-group textarea {
+    height: 120px; }
+  .form-group label {
+    color: #000;
+    font-size: 16px;
+    pointer-events: none;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    margin: 0;
+    font-weight: bold; }
+    @media (max-width: 768px) {
+      .form-group label {
+        font-size: 16px; } }
+  .form-group input, .form-group textarea {
+    background-color: transparent; }
+    .form-group input:focus ~ label, .form-group input:valid ~ label, .form-group textarea:focus ~ label, .form-group textarea:valid ~ label {
+      top: -15px;
+      font-size: 14px; }
+  .form-group .bar {
+    position: relative;
+    display: block;
+    width: 100%; }
+    .form-group .bar:before, .form-group .bar:after {
+      content: '';
+      height: 1px;
+      width: 0;
+      bottom: 0;
+      position: absolute;
+      background: #3D4C51;
+      -o-transition: 0.2s ease all;
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all; }
+    .form-group .bar:before {
+      left: 50%; }
+    .form-group .bar:after {
+      right: 50%; }
+  .form-group input:focus ~ .bar:before, .form-group input:focus ~ .bar:after, .form-group textarea:focus ~ .bar:before, .form-group textarea:focus ~ .bar:after {
+    width: 50%; }
+  .form-group .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 40%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5; }
+  .form-group input:focus ~ .highlight, .form-group textarea:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.5s ease;
+    -moz-animation: inputHighlighter 0.5s ease;
+    animation: inputHighlighter 0.5s ease; }
+
+@-webkit-keyframes inputHighlighter {
+  from { }
+  background: #3D4C51;
+  to { }
+  width: 0;
+  background: transparent; }
+
+@-moz-keyframes inputHighlighter {
+  from { }
+  background: #3D4C51;
+  to { }
+  width: 0;
+  background: transparent; }
+
+@keyframes inputHighlighter {
+  from {
+    background: #727272; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type=number] {
+  -moz-appearance: textfield; }
+
+.form-check label {
+  color: #ffffff; }
+
+select:focus {
+  outline: 0; }
+
+.button {
+  color: #ffffff;
+  background-color: #c69b7b;
+  border: 2px solid #ffffff;
+  border-radius: 20px !important;
+  padding: 10px 40px; }
+  .button:focus {
+    outline: 0; }
