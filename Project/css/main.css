@@ -61,7 +61,7 @@ html, body {
   display: none !important; }
 
 .banner-principal {
-  background-color: #C69B7B;
+  background-color: #f4ede5;
   background-size: cover;
   background-position: 100% 0%;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@ html, body {
     animation: mover 0.8s infinite  alternate; }
 
 .text-banner a{
-  color: #ffffff;
+  color: #c69b7b;
   margin-top: 4%;
   
 }
@@ -85,4 +85,12 @@ html, body {
 .container{
   text-align: center;
 
+  
+}
+header{
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  width: 100%;
+  height: 100%;
 }
