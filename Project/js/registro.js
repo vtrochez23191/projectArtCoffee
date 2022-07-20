@@ -1,6 +1,4 @@
-$(document).ready(function(){
-    
-
+$(document).ready(function(){  
     $("#registrar").click(function () {
         var usuario = document.getElementById("usuario").value;
         var password1 = document.getElementById("contra").value;
@@ -13,6 +11,7 @@ $(document).ready(function(){
             alert("las contraseñas deben coincidir.");
 
         } else {
+            alert("las contraseñas coinciden.");
             sessionStorage.setItem("usuario", usuario);
             sessionStorage.setItem("password", password1);           
         }
