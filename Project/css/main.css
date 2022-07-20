@@ -63,11 +63,10 @@ html, body {
 
 .text-banner a{
   color: #c69b7b;
-  margin-top: 4%;
   
 }
 
-.container{
+.container-logobaner{
   text-align: center;
 
   
@@ -78,4 +77,8 @@ header{
   border: 0px !important;
   width: 100%;
   height: 100%;
+}
+
+.text-banner{
+  text-align: center;
 }

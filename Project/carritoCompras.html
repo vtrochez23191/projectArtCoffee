@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>ARTCOFFE</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/inicio.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/carrito.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+      </head>
+
+    <body>
+
+        <header class="section page-header" style="height: 40%">
+            <section class="banner-principal"> 
+              <div class="container-logobaner"> 
+    
+                    <div class="content-logo"> <img class="img-fluid" src="img/logoart.png"></div>
+            
+              </div> 
+              <div class="container-baner">
+    
+                <div class="text-banner">
+                  
+                    <a class="navbar-brand" href="inicioSesion.html">Inicio</a>
+                    <a class="navbar-brand" href="">Carta de productos</a>
+                    <a class="navbar-brand" href="">Reservas</a>
+                    <a class="navbar-brand" href="">Entretenimento</a>
+                    <a class="navbar-brand" href="carritoCompras.html">Carrito</a>
+                    <a class="navbar-brand" href="carritoCompras.html">Configuración</a>
+                </div>
+                
+              </div>
+            </section>
+          </header>
+
+
+          <section>
+            <div class="containerr">
+                <div class="box-default">
+                    <h2 class="box-default-title textTitulo">CARRITO DE COMPRAS</h2>
+                    <div class="box-default-decor"></div>
+
+                    <div class="container ">
+                        <div class="row g-2">
+                                <div class="col-md col-carrito">
+                                    <div class="form-floating" id="productos-carrito">
+                                       
+                                        <table class="table table-borderless" id="tablita">
+                                            <thead>
+                                                <tr>
+                                                  <th scope="col">#</th>
+                                                  <th scope="col">Producto</th>
+                                                  <th scope="col">Precio</th>
+                                                </tr>
+                                              </thead>
+                                              <tbody id="tablita">  </tbody>
+                                          </table>
+
+                                          
+                                    </div>
+                                </div>
+
+                                <div class="col-md col-carrito">
+                                    <div class="form-floating">
+                                        <h5 class="card-title text-center">RESUMEN DE LA COMPRA</h5>
+                                        <div class="row">
+                                            <div class="col-md col-carrito">
+                                                <div class="form-floating">
+                                                    <p class="fs-6">NÚMERO DE PRODUCTOS</p>
+                                                </div>
+                                            </div> 
+                                            <div class="col-md col-carrito">
+                                                <div class="form-floating">
+                                                    <h5 class="card-title text-center">5</h5>
+                                                </div>
+                                            </div> 
+                                            
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md col-carrito">
+                                                <div class="form-floating">
+                                                    <p class="fs-6">TOTAL A PAGAR</p>
+                                                </div>
+                                            </div> 
+                                            <div class="col-md col-carrito">
+                                                <div class="form-floating">
+                                                    <p class="fs-6" id="totalpagar"></p>
+                                                </div>
+                                            </div>       
+
+                                        </div>
+
+                                        <div class="d-grid gap-2">
+                                            <a href="pagoExitoso.html"><input class="button btn btn-outline-secondary"   type="button" value="PAGAR" id="inicio"></a>
+                                        </div>
+                                    
+                                        <p class="card-text">NOTA: POR EL MOMENTO SOLO CONTAMOS CON LA OPCIÓN DE RECOGER EN TIENDA</p>
+
+                                    </div>
+                                </div>
+                          </div>
+                  </div>
+
+                
+              </div>
+          </section>
+
+
+
+    </body>
