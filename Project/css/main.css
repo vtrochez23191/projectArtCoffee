@@ -1,19 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-@font-face {
-  font-family: 'ObliquaITCW01';
-  src: url("../css/fonts/ObliquaITCW01.eot");
-  src: url("../css/fonts/ObliquaITCW01.eot") format("embedded-opentype"), url("../css/fonts/ObliquaITCW01.woff2") format("woff2"), url("../css/fonts/ObliquaITCW01.woff") format("woff"), url("../css/fonts/ObliquaITCW01.ttf") format("truetype"), url("../css/fonts/ObliquaITCW01.svg#ObliquaITCW01") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Obliqua ITC W01 Bold';
-  src: url("../css/fonts/ObliquaITCW01Bold.eot");
-  src: url("../css/fonts/ObliquaITCW01Bold.eot") format("embedded-opentype"), url("../css/fonts/ObliquaITCW01Bold.woff2") format("woff2"), url("../css/fonts/ObliquaITCW01Bold.woff") format("woff"), url("../css/fonts/ObliquaITCW01Bold.ttf") format("truetype"), url("../css/fonts/ObliquaITCW01Bold.svg#ObliquaITCW01Bold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
 
 h1, h2, h3, h4, p, li, a, span, button, label, strong {
   font-family: 'ObliquaITCW01'; }
@@ -67,7 +52,7 @@ html, body {
   background-repeat: no-repeat;
   position: relative; }
   .banner-principal:before {
-    content: url("../img/icons/icon-mouse.svg");
+   
     position: absolute;
     bottom: 10px;
     left: calc(50% - 11px);

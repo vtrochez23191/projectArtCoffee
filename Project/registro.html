@@ -35,27 +35,28 @@
             <div class="content-form">
               <div class="form-talk">
 
-               
+                <form class="formBorder">
                   <div class="form-group">
                     <label>USUARIO:</label>
-                    <input class="usuario"  id="usuario" type="text" ><span class="highlight"></span><span class="bar"></span>
+                    <input class="usuario"  id="usuario" type="text" required><span class="highlight"></span><span class="bar"></span>
                   </div>
                   <div class="form-group">
                     <label>CONTRASEÑA:</label>
-                    <input class="contraseña" id="contra"  ><span class="highlight"></span><span class="bar"></span>
+                    <input class="contraseña" id="contra" required ><span class="highlight"></span><span class="bar"></span>
                   </div>
 
                   <div class="form-group">
                     <label>REPETIR CONTRASEÑA:</label>
-                    <input class="lastname" id="Confirmarcontra"><span class="highlight"></span><span class="bar"></span>
+                    <input class="lastname" id="Confirmarcontra" required><span class="highlight"></span><span class="bar"></span>
                   </div>
                   
                   <div class="item-button">
-                    <button class="button" id="registrar">REGISTRAR</button>
-                    <button class="button" href="inicioSesion.html">VOLVER</button>
+                    <a ><input class="button"   type="button" value="REGISTRAR" id="registrar"></a>
+         
+                    <a href="inicioSesion.html"><input class="button" type="button" value="VOLVER"></a>
                   </div>
                  
-      
+                </form>
 
               </div>
             </div>
@@ -69,7 +70,8 @@
     </div>
   </div>
         
-    <script type="text/javascript" src="js/registro.js"></script>
+  <script type="text/javascript" src="js/registro.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 </body>
 
