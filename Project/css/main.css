@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+@font-face {
+  font-family: 'ObliquaITCW01';
+  src: url("../css/fonts/ObliquaITCW01.eot");
+  src: url("../css/fonts/ObliquaITCW01.eot") format("embedded-opentype"), url("../css/fonts/ObliquaITCW01.woff2") format("woff2"), url("../css/fonts/ObliquaITCW01.woff") format("woff"), url("../css/fonts/ObliquaITCW01.ttf") format("truetype"), url("../css/fonts/ObliquaITCW01.svg#ObliquaITCW01") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Obliqua ITC W01 Bold';
+  src: url("../css/fonts/ObliquaITCW01Bold.eot");
+  src: url("../css/fonts/ObliquaITCW01Bold.eot") format("embedded-opentype"), url("../css/fonts/ObliquaITCW01Bold.woff2") format("woff2"), url("../css/fonts/ObliquaITCW01Bold.woff") format("woff"), url("../css/fonts/ObliquaITCW01Bold.ttf") format("truetype"), url("../css/fonts/ObliquaITCW01Bold.svg#ObliquaITCW01Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+h1, h2, h3, h4, p, li, a, span, button, label, strong {
+  font-family: 'ObliquaITCW01'; }
+
+h1, h2, h3, h4 {
+  font-weight: 700; }
+
+.bg-white {
+  background: #ffffff; }
+
+html, body {
+  height: 100%;
+  overflow-x: hidden; }
+
+@media (min-width: 768px) {
+  .pd-d {
+    padding: 0 !important; } }
+
+@media (max-width: 768px) {
+  .pd-m {
+    padding: 0 !important; } }
+
+@media (max-width: 767px) {
+  .dip-mob {
+    display: none !important; } }
+
+@media (min-width: 768px) {
+  .dip-desk {
+    display: none !important; } }
+
+.border-none {
+  border: none !important; }
+
+@media (max-width: 768px) {
+  .flex-f {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse;
+    flex-flow: column-reverse; } }
+
+.dipb {
+  display: block !important; }
+
+.dipn {
+  display: none !important; }
+
+.banner-principal {
+  background-color: #C69B7B;
+  background-size: cover;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  position: relative; }
+  .banner-principal:before {
+    content: url("../img/icons/icon-mouse.svg");
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 11px);
+    -webkit-animation: mover 0.8s infinite  alternate;
+    animation: mover 0.8s infinite  alternate;
+    -webkit-animation: mover 0.8s infinite  alternate;
+    animation: mover 0.8s infinite  alternate; }
+
+.text-banner a{
+  color: #ffffff;
+  margin-top: 4%;
+  
+}
+
+.container{
+  text-align: center;
+
+}
