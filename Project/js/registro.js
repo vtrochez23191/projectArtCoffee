@@ -1,6 +1,8 @@
 $(document).ready(function(){  
     $("#registrar").click(function () {
         var usuario = document.getElementById("usuario").value;
+        var nombre = document.getElementById("nombre").value;
+        var apellidos = document.getElementById("apellidos").value;
         var password1 = document.getElementById("contra").value;
         var password2 = document.getElementById("Confirmarcontra").value;
 
@@ -17,7 +19,9 @@ $(document).ready(function(){
             alert("REGISTRO CORRECTO");
             window.location.href='inicioSesion.html';
             sessionStorage.setItem("usuario", usuario);
-            sessionStorage.setItem("password", password1);           
+            sessionStorage.setItem("password", password1);   
+            sessionStorage.setItem("nombre", nombre);
+            sessionStorage.setItem("apellidos", apellidos);         
         }
 
     });   

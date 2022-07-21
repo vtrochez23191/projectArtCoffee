@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>ARTCOFFE</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/inicio.css">
+        <link rel="stylesheet" href="css/inicioSesion.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/carrito.css">
+        <link rel="stylesheet" href="css/configuracion.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+      </head>
+
+    <body onload="Datos()">
+
+       
+        <section class="banner-principal"> 
+          <div class="container-logobaner"> 
+
+                <div class="content-logo"> <img class="img-fluid" src="img/logoart.png"></div>
+        
+          </div> 
+          <div class="container-baner">
+
+            <div class="text-banner">
+              
+                <a class="navbar-brand" href="inicio.html">Inicio</a>
+                <a class="navbar-brand" href="">Carta de productos</a>
+                <a class="navbar-brand" href="">Reservas</a>
+                <a class="navbar-brand" href="">Entretenimento</a>
+                <a class="navbar-brand" href="carritoCompras.html">Carrito</a>
+                <a class="navbar-brand" href="configuracionCueenta.html">Configuración</a>
+            </div>
+            
+          </div>
+        </section>
+ 
+
+
+      <section>
+        <div class="containerr">
+
+            <div class="box-default">
+                <h2 class="box-default-title textTitulo">CONFIGURACIÓN DE CUENTA</h2>
+                <div class="box-default-decor"></div>
+
+                <div class="container ">
+                    <div class="row">
+                            <div class="col-md-4 col-carrito imageUpload" id="imagenUsuario">
+                                <img class="rounded mx-auto d-block" alt="..." id="imagenPrevisualizacion">
+                                <label for="imageUpload" class="btn btn-secondary btn-block btn-outlined">Seleccionar imagen</label>
+                                <input type="file" id="imageUpload" accept="image/*" style="display: none; margin-top: 5px;"> 
+                            </div>
+
+                            <div class="col-md-7 col-carrito imageUpload">
+                                <form class="formBorder">
+                                    <div class="form-group">
+                                      <label>NOMBRE:</label>
+                                      <input class="name"  id="nombre" type="text"><span class="highlight"></span><span class="bar"></span>
+                                    </div>
+                                    <div class="form-group">
+                                      <label>APELLIDOS:</label>
+                                      <input class="apellidos"  id="apellidos" type="text"><span class="highlight"></span><span class="bar"></span>
+                                    </div>
+                                    <div class="form-group">
+                                      <label>USUARIO:</label>
+                                      <input class="usuario"  id="usuario" type="text"><span class="highlight"></span><span class="bar"></span>
+                                    </div>
+                                    <div class="form-group" >
+                                      <label>CONTRASEÑA:</label>
+                                      <input class="contraseña" id="contra" type="password" ><span class="highlight"></span><span class="bar"></span>
+                                    </div>
+                  
+                                    <div class="form-group">
+                                      <label>REPETIR CONTRASEÑA:</label>
+                                      <input class="lastname" id="Confirmarcontra" type="password"><span class="highlight"></span><span class="bar"></span>
+                                    </div>
+                                    
+                                    <div class="item-button">
+                                        <button type="button" id = "actualizar"  class=" button btn btn-secondary">Generar</button>
+                                        <button type="reset" class=" button btn btn-secondary">Limpiar</button>
+
+
+                                    </div>
+                                   
+                                  </form>
+                                
+                            </div>
+
+                      </div>
+
+                      
+              </div>
+          </div>
+
+          
+        </div>
+      </section>
+
+      <script type="text/javascript" src="js/configuracion.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    </body>
